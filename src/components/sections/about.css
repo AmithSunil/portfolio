@@ -1,0 +1,40 @@
+.about-main-body{
+
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+.head{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h2{
+    padding: 0%;
+    margin: 0%;
+}
+
+hr{
+    margin: 1em;
+    width: 25rem;
+    border: solid .1em #6d799b;
+    
+}
+
+
+h2:hover{
+    color: #64ffda;
+    text-shadow: 0px 0px 15px  #64ffda;
+}
+
+
+.about-body{
+    margin-top: 3rem;
+}
