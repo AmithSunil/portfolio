@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import me from "../images/me.jpg";
 
 const About = () => {
   return (
@@ -17,6 +18,7 @@ const About = () => {
             maiores iste velit, doloremque cumque sit fugiat placeat labore iure
             repellat eos sint qui eveniet odio. Omnis nam ipsum vitae!
           </p>
+          <img src={me} alt="img-here" />
         </div>
       </div>
     </div>

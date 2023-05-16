@@ -1,11 +1,12 @@
 .about-main-body{
-
     display: flex;
-    justify-content: center;
-    display: flex;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    width: 70vw;
+    width: 70%;
+    height: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 5em;
 }
 
 .head{
@@ -19,6 +20,7 @@
 h2{
     padding: 0%;
     margin: 0%;
+    transition: text-shadow .5s , color .5s;
 }
 
 hr{
@@ -38,3 +40,36 @@ h2:hover{
 .about-body{
     margin-top: 3rem;
 }
+
+img{
+    width: 40%;
+    max-height: 300px;
+    max-width: 300px;
+    height: 40%;
+
+    box-shadow:  0px 7px 29px 0px  #163d34;
+    border-radius: 12px;
+    transition: box-shadow .5s;
+}
+
+img:hover{
+    box-shadow:  0px 7px 29px 0px  #64ffda;
+}
+
+.body-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.body-content>p{
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+    .body-content {
+        flex-direction: column;
+        
+    }
+  }

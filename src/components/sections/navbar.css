@@ -5,6 +5,7 @@
     padding-right: 2%;
     transition: color 15s;
     background: transparent;
+    font-family: 'Fira Mono', monospace;
 }
 
 .main{
@@ -12,7 +13,7 @@
     position:fixed;
     right: 0%;
     width: 100%;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
 }
 
 .main.active{
@@ -23,12 +24,27 @@
 
 .list-item{
     padding : 2% 2%;
+    transition: color .3s;
 }
 
 .highlight{
+    font-family: 'Fira Mono', monospace;
     color: #64ffda;
 }
 
 .list-item:hover{
     color: #64ffda;
+}
+
+
+@media screen and (max-width: 600px) {
+    .nav-div{
+       display: none;
+    }
+    .main{
+        display: inline;
+        background-color: #16189c;
+        height: 40px;
+         
+    }
 }

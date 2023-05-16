@@ -3,12 +3,12 @@ import "./intro.css";
 
 const Intro = () => {
   return (
-    <div class="intro-main-body">
+    <div className="intro-main-body">
       <div className="bodycontent">
-        <p class="p1">Hi,I'm</p>
-        <p class="p2">Amith Sunil</p>
-        <p class="p3"></p>
-        <p class="p4">
+        <p className="p1 ">Hi,I'm</p>
+        <p className="p2">Amith Sunil</p>
+        <p className="p3"></p>
+        <p className="p4">
           I'm Amith, a student at the College of Engineering Chengannur with
           expertise in web development, video editing, designing, and
           programming. With my skills, I can create exceptional digital
@@ -19,6 +19,8 @@ const Intro = () => {
           outstanding results and excited to make a significant impact in the
           digital technology field.
         </p>
+
+        <button className="btn">Download CV</button>
       </div>
     </div>
   );

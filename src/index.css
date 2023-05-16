@@ -7,11 +7,16 @@ body{
     background-color: #0a192f;
 }
  
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .main-main{
     display: flex;
     flex-direction: column;
     align-items: center;
- 
+}
+
+
+.robot-font{
+    font-family: 'Fira Mono', monospace;
 }
