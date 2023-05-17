@@ -1,0 +1,13 @@
+.contact-main-body{
+
+    width: 70%;
+}
+
+
+.head{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

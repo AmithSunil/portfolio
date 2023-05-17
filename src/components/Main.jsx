@@ -3,6 +3,7 @@ import Intro from './sections/Intro';
 import Navbar from './sections/Navbar';
 import About from './sections/About';
 import Experience from './sections/Experience';
+import Contact from './sections/Contact';
 import './main.css'
  
 
@@ -13,6 +14,7 @@ const Main = () => {
             <Intro />
             <About />
             <Experience />
+            <Contact />
         </div>
     );
 }

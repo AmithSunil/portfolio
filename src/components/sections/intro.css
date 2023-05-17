@@ -1,5 +1,5 @@
 .intro-main-body {
-  padding: 15em 15em;
+  padding: 12em 15em;
   padding-bottom: 200px;
   max-height: auto;
   width: 70%;
@@ -22,11 +22,20 @@
 }
 
 .p3 {
-  font-size: 350%;
+  font-size: 400%;
   margin: 0;
 }
 
 
+.btn{
+  margin-top: 2em;
+  background: transparent;
+  padding: 1em 2em;
+  border: #64ffda solid 1px;
+  color: #64ffda;
+  font-family: 'Fira Mono', monospace;
+  border-radius: 6px;
+}
 @media screen and (max-width: 600px) {
     .intro-main-body {
         
