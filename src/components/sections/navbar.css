@@ -55,14 +55,35 @@ a{
     color: inherit;
 }
 
+.small-nav{
+    display: none;
+}
 @media screen and (max-width: 600px) {
     .nav-div{
        display: none;
     }
     .main{
         display: inline;
-        background-color: #16189c;
-        height: 40px;
+        background: transparent;
+        height: 70px;
+        box-shadow: 0px 7px 29px 0px #00000031;
          
+    }
+    .small-nav{
+        display: flex;
+        justify-content: ce-evenly;
+        align-items: center;
+        height: 100%;
+    }
+    .small-nav>a>img{
+        width: 25px;
+        height: 25px;
+        padding-left: 30px;
+ 
+    }
+
+    .small-nav>img{
+        margin-left:auto;
+        margin-right:30px;
     }
 }

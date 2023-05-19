@@ -85,15 +85,35 @@ a{
     text-decoration: none;
 }
 
-.footer{
-    font-size: medium;
-    width: 100%;
-    margin: 4em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #193161;
-    margin-bottom: 0%;
-    height: 100px;
+@media screen and (max-width: 600px) {
+    .contact-main-body{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .head{
+        width: 100%;
+        margin-bottom: 0%;
+    }
+    .contact-body{
+        width: 100%;
+    }
+    .contacts{
+        width: auto;
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+        margin-top: 0%;
+  
+    }
+   
+    .contact-text-c{
+        width:100px;
+        margin-top: 0;
+    }
+   .contact-body>h1{
+        font-size: 2em;
+   }
+   
 }

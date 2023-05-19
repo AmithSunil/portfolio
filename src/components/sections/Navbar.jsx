@@ -14,7 +14,10 @@ const Navbar = () => {
         <a href="#contact">
           <div class="list-item"><span class="highlight">03.</span>Contact</div>
           </a>
-
+    </div>
+    <div className="small-nav"> 
+      <a  href="#home"> <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/64ffda/home.png" alt="home"/></a>  
+      <img width="32" height="32" src="https://img.icons8.com/windows/32/64ffda/menu--v1.png" alt="menu--v1"/>
     </div>
   </div>;
 };

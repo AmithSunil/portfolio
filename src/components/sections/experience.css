@@ -35,7 +35,6 @@
 }
 
 .items-used{
-
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -55,11 +54,10 @@
  height: 1px;
   background-color:#1e263d ;
   border: none;
- 
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .experience-main-body {
     width: 90%;
     display: flex;
@@ -68,19 +66,24 @@
   .proj-one,.proj-two{
     display: flex;
     width: 100%;
+    padding-top: 0;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
   }
   .proj>img{
-    width: 250px;
+    width: auto;
+    max-width: 80%;
     padding:2rem ;
   }
-  .proj-text{
-    background-color: #112240;
-    box-shadow:  0px 7px 29px 0px  #00000050;
-    padding:0%;
+  .proj{
     margin: 0%;
-    width: 100%;
+    padding: 0%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
+  .items-used{
+    padding-top: 11px;
+  }
+   
 }
