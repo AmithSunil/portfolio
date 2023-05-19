@@ -15,6 +15,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    font-family: 'Fira Mono', monospace;
 }
 
 h2{
