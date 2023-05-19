@@ -23,7 +23,7 @@
 }
 
 .list-item{
-    padding : 2% 2%;
+    padding : 2rem 2rem;
     transition: color .3s;
 }
 

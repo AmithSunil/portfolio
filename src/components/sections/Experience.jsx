@@ -1,6 +1,7 @@
 import React from "react";
 import "./experience.css";
 import tictactoe from "../images/tictactoe.png";
+import quizdom from "../images/quiz.png";
 import { FiExternalLink } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
 import { IconContext } from "react-icons";
@@ -9,7 +10,7 @@ const Experience = () => {
   return (
     <div className="experience-main-body">
             <IconContext.Provider
-        value={{ color: "gray", className: "global-class-name" }}
+        value={{ color: "#64ffda", className: "global-class-name" }}
       >
 
       <div className="head">
@@ -61,7 +62,7 @@ const Experience = () => {
             <div>OpenAI</div>
           </div>
         </div>
-        <img src={tictactoe} alt="img-here" />
+        <img src={quizdom} alt="img-here" />
       </div>
       </IconContext.Provider>
     </div>

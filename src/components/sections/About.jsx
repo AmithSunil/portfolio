@@ -14,17 +14,32 @@ const About = () => {
       <div className="about-body">
         <div className="body-content">
           <div>
-            I'm Amith, a student at the College of Engineering Chengannur with
-            expertise in web development, video editing, designing, and
-            programming. With my skills, I can create exceptional digital
-            experiences, including high-quality websites, mobile applications,
-            videos, and software applications. I'm deeply passionate about using
-            technology to solve problems and am always eager to expand my
-            knowledge to enhance my abilities. I'm dedicated to delivering
-            outstanding results and excited to make a significant impact in the
-            digital technology field
+            <div>
+              I'm Amith, a student at the College of Engineering Chengannur with
+              expertise in web development, video editing, designing, and
+              programming. With my skills, I can create exceptional digital
+              experiences, including high-quality websites, mobile applications,
+              videos, and software applications. I'm deeply passionate about
+              using technology to solve problems and am always eager to expand
+              my knowledge to enhance my abilities. I'm dedicated to delivering
+              outstanding results and excited to make a significant impact in
+              the digital technology field
+            </div>
+            <div className="skills">
+              <h5>Here are some skills that I'm familiar with :</h5>
+              <ul>
+                <li><img src="https://img.icons8.com/ios-filled/50/64ffda/source-code.png"/>ReactJs</li>
+                <li><img src="https://img.icons8.com/ios-filled/50/64ffda/source-code.png"/>JavaScript</li>
+                <li><img src="https://img.icons8.com/ios-filled/50/64ffda/source-code.png"/>HTML</li>
+                <li><img src="https://img.icons8.com/ios-filled/50/64ffda/source-code.png"/>CSS</li>
+                <li><img src="https://img.icons8.com/ios-filled/50/64ffda/source-code.png"/>Game Development</li>
+                <li><img src="https://img.icons8.com/ios-filled/50/64ffda/source-code.png"/>Blender</li>
+                <li><img src="https://img.icons8.com/ios-filled/50/64ffda/source-code.png"/>Adobe Premiere Pro</li>
+                <li><img src="https://img.icons8.com/ios-filled/50/64ffda/source-code.png"/>Figma</li>
+              </ul>
+            </div>
           </div>
-          <img src={me} alt="img-here" />
+          <img className="me" src={me} alt="img-here" />
         </div>
       </div>
     </div>
