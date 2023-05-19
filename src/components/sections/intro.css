@@ -1,11 +1,11 @@
 .intro-main-body {
-  padding: 12em 15em;
-  padding-bottom: 200px;
+  padding: 12rem 15rem;
+  padding-bottom: 8em;
   max-height: auto;
   width: 70%;
 
 }
-
+ 
 .p1 {
   padding-bottom: 0%;
   margin: 0;
@@ -18,7 +18,7 @@
   padding-top: 0%;
   margin: 0;
   font-weight: bold;
-  color: #ccd6f6;
+  color: #eff3ff;
 }
 
 .p3 {
@@ -36,8 +36,28 @@
   font-family: 'Fira Mono', monospace;
   border-radius: 6px;
 }
-@media screen and (max-width: 600px) {
+
+.btn:hover{
+  background: #64ffda;
+  color: #112240;
+  transition: all .3s;
+ }
+
+
+ @media screen and (max-width: 600px) {
     .intro-main-body {
-        
+      padding: 7rem 5rem;
+      padding-bottom: 5em;
+      width: 90%;
     }
-  }
+    .p2{
+      font-size: 40px;
+    }
+    .p3{
+      font-size: 30px;
+    }
+    .p4{
+      padding-top: 2rem;
+      font-size: 15px;
+    }
+  }  

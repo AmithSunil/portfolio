@@ -3,6 +3,7 @@
     font-size: .9rem;
     justify-content: flex-end;
     padding-right: 2%;
+    width: 100%;
     transition: color 15s;
     background: transparent;
     font-family: 'Fira Mono', monospace;
@@ -11,8 +12,8 @@
 .main{
     background: transparent;
     position:fixed;
-    right: 0%;
     width: 100%;
+    top: 0%;
     backdrop-filter: blur(6px);
 }
 
@@ -36,6 +37,23 @@
     color: #64ffda;
 }
 
+.home{
+    align-self: center;
+    padding-left: 2rem;
+    margin-right:auto;
+    font-size: larger;
+   color: #64ffda;
+   transition: all .3s;
+}
+
+.home:hover{
+    text-shadow: 0px 7px 29px    #64ffda;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 @media screen and (max-width: 600px) {
     .nav-div{

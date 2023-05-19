@@ -1,10 +1,11 @@
 import React from "react";
 import "./intro.css";
+import CV from "../images/CV.pdf";
 
 const Intro = () => {
   return (
-    <div className="intro-main-body">
-      <div className="bodycontent">
+        <div className="intro-main-body">
+    <div className="bodycontent">
         <p className="p1 ">Hi,my name is</p>
         <p className="p2">Amith Sunil</p>
         <p className="p3">I build things for the Web</p>
@@ -16,7 +17,9 @@ const Intro = () => {
           see how I can bring your web development needs to life
         </p>
 
-        <button className="btn">Download CV</button>
+        <a href={CV} download="CV">
+          <button className="btn">Download CV</button>
+          </a>
       </div>
     </div>
   );
